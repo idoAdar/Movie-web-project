@@ -1,0 +1,75 @@
+.Navbar {
+  width: 100%;
+  height: 9vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 200;
+}
+
+.search_container {
+  padding-right: 1rem;
+}
+
+.search_container input {
+  margin-right: 0.8rem;
+  padding: 0.6rem 1rem;
+  border-radius: 15px;
+  border: 1px solid white;
+  outline: none;
+  background-color: rgb(46, 46, 46);
+  transition: 0.1s ease-in-out;
+  color: white;
+  font-size: 16px;
+}
+
+.search_container button {
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 15px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  outline: none;
+  text-transform: uppercase;
+}
+
+.Logo span {
+  padding-left: 1rem;
+  color: black;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Title {
+  font-size: x-large;
+  padding-left: 1rem;
+}
+
+@media (max-width: 700px) {
+  .search_container input {
+    padding: 0.4rem 0.4rem;
+    border-radius: 5px;
+  }
+
+  .search_container button {
+    padding: 0.4rem 0.4rem;
+    border-radius: 5px;
+  }
+
+  .search_container {
+    padding-right: 0.4rem;
+  }
+
+  .Title {
+    display: none;
+  }
+}

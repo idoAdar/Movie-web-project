@@ -1,0 +1,22 @@
+.rate {
+  font-size: 12px;
+  font-weight: bolder;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.green {
+  background-color: green;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.red {
+  background-color: red;
+}
